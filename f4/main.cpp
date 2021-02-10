@@ -14,10 +14,15 @@
 
 // itt include-old a modul fejlécfájlját (modul.h)
 // mivel nem standard C headerről van szó, <> helyett "" jelölést használj
+#include "modul.h"
+#include <cstdio>
 
 int main()
 {
 	// itt hívd meg a greeting függvényt, és az eredményt írd ki a standard outputra.
+	char msg[200];
+	greeting("OJY8UV", msg);
+	printf("%s\n", msg);
 
 	return 0;
 }

@@ -86,6 +86,7 @@ int main()
 	swapUsingReferences(i, j);
 	printf("\ti=%d; j=%d\n", i, j);
 
+#if 0
 	// 5. példa
 	// Ez a példa definiálatlan működést mutat be.
 	// Bizonyos fordítókkal (vc) lefut és hülyeséget csinál, más fordítókkal (gcc) összeomlik.
@@ -96,6 +97,7 @@ int main()
 	printf("\tlocalref=%d\n", localref);
 	printf("\tlocalref=%d\n", localref);
 	printf("\tlocalref=%d\n", localref);
+#endif
 
 	// 6. példa
 	printf("6. pelda\n");

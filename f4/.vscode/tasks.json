@@ -6,7 +6,7 @@
         {
             "label": "build prog",
             "type": "shell",
-            "command": "g++ -g main.cpp -L-lmodul -o prog",
+            "command": "g++ -g main.cpp -L. -lmodul -o prog",
             "problemMatcher": [
                 "$gcc"
             ],
